@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 
 # Load the data
-df = pd.read_csv('/Users/lucas/Desktop/Olli/mock_qqq_data.csv', index_col='Date', parse_dates=True)
+df = pd.read_csv('yourPath/mock_qqq_data.csv', index_col='Date', parse_dates=True)
 
 def find_optimal_buy_sell(prices):
     n = len(prices)
@@ -58,7 +58,7 @@ plt.ylabel('Price ($)')
 plt.legend()
 plt.grid(True)
 plt.tight_layout()
-plt.savefig('/Users/lucas/Desktop/Olli/qqq_buy_sell_points.png')
+plt.savefig('yourPath/qqq_buy_sell_points.png')
 plt.close()
 
 print(f"The chart has been saved as 'qqq_buy_sell_points.png' in the specified directory.")
