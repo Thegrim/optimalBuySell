@@ -34,8 +34,8 @@ print(df.head())
 print(df.describe())
 
 # Optional: Save to CSV
-# save to path /Users/lucas/Desktop/Olli
+# save to path /yourPath
 
 
 
-df.to_csv('/Users/lucas/Desktop/Olli/mock_qqq_data.csv')
+df.to_csv('/yourPath.csv')
